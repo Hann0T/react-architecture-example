@@ -2,10 +2,12 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
-      "@domain/*": ["./domain/*"]
+      "@domain/*": ["./domain/*"],
+      "@framework*": ["./framework/*"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
+    "types": ["node", "jest"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -18,7 +20,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "extends": "./tsconfig",
+    "exclude": ["**/*.test.*", "**/__mocks__/*", "**/__tests__/*"]
   },
   "include": ["src"]
 }

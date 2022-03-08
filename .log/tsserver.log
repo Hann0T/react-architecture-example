@@ -1,0 +1,779 @@
+Info 0    [11:20:27.821] Starting TS Server
+Info 1    [11:20:27.822] Version: 4.5.5
+Info 2    [11:20:27.822] Arguments: /usr/bin/node /home/hann0t/Development/react-hexagonal-architecture/node_modules/typescript/lib/tsserver.js --logFile /home/hann0t/Development/react-hexagonal-architecture/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/662493c6b788ac1bb63d092b81cc2288/tscancellation*
+Info 3    [11:20:27.822] Platform: linux NodeVersion: 17 CaseSensitive: true
+Info 4    [11:20:27.822] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [11:20:27.832] Format host information updated
+Info 6    [11:20:27.888] Search path: /home/hann0t/Development/react-hexagonal-architecture/src/__test__
+Info 7    [11:20:27.889] For info: /home/hann0t/Development/react-hexagonal-architecture/src/__test__/cart.test.ts :: Config file name: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 8    [11:20:27.889] Creating configuration project /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 9    [11:20:27.905] Config: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json : {
+ "rootNames": [
+  "/home/hann0t/Development/react-hexagonal-architecture/src/index.tsx",
+  "/home/hann0t/Development/react-hexagonal-architecture/src/react-app-env.d.ts",
+  "/home/hann0t/Development/react-hexagonal-architecture/src/setupTests.ts",
+  "/home/hann0t/Development/react-hexagonal-architecture/src/__test__/cart.test.ts",
+  "/home/hann0t/Development/react-hexagonal-architecture/src/__test__/viewItems.test.tsx",
+  "/home/hann0t/Development/react-hexagonal-architecture/src/domain/entities/Cart.ts",
+  "/home/hann0t/Development/react-hexagonal-architecture/src/domain/entities/Item.ts",
+  "/home/hann0t/Development/react-hexagonal-architecture/src/framework/common/App.tsx",
+  "/home/hann0t/Development/react-hexagonal-architecture/src/framework/common/Item.tsx"
+ ],
+ "options": {
+  "baseUrl": "/home/hann0t/Development/react-hexagonal-architecture/src",
+  "paths": {
+   "@domain/*": [
+    "./domain/*"
+   ],
+   "@framework*": [
+    "./framework/*"
+   ]
+  },
+  "target": 1,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.esnext.d.ts"
+  ],
+  "types": [
+   "node",
+   "jest"
+  ],
+  "allowJs": true,
+  "skipLibCheck": true,
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "noFallthroughCasesInSwitch": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "noEmit": true,
+  "jsx": 4,
+  "pathsBasePath": "/home/hann0t/Development/react-hexagonal-architecture",
+  "configFilePath": "/home/hann0t/Development/react-hexagonal-architecture/tsconfig.json"
+ }
+}
+Info 10   [11:20:27.909] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 11   [11:20:29.337] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1427.6245049999998ms
+Info 12   [11:20:29.337] Project '/home/hann0t/Development/react-hexagonal-architecture/tsconfig.json' (Configured)
+Info 13   [11:20:29.337] 	Files (126)
+
+Info 14   [11:20:29.337] -----------------------------------------------
+Info 15   [11:20:29.346] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 16   [11:20:29.471] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 124.79450200000429ms
+Info 17   [11:20:29.471] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 18   [11:20:29.471] 	Files (33)
+
+Info 19   [11:20:29.471] -----------------------------------------------
+Info 20   [11:25:18.859] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 21   [11:25:18.874] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 14.839821000001393ms
+Info 22   [11:25:18.874] Different program with same set of files
+Info 23   [11:25:19.851] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 24   [11:25:19.861] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 9.957671000040136ms
+Info 25   [11:25:19.861] Different program with same set of files
+Info 26   [11:25:20.230] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 27   [11:25:20.238] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 7.452664999989793ms
+Info 28   [11:25:20.238] Different program with same set of files
+Info 29   [11:25:20.563] forEachExternalModuleToImportFrom autoImportProvider: 2.688687000016216
+Info 30   [11:25:20.895] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 31   [11:25:20.902] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 7.001708000025246ms
+Info 32   [11:25:20.903] Different program with same set of files
+Info 33   [11:25:25.785] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 34   [11:25:25.791] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 6.19788500003051ms
+Info 35   [11:25:25.791] Different program with same set of files
+Info 36   [11:25:26.108] forEachExternalModuleToImportFrom autoImportProvider: 0.1825539999990724
+Info 37   [11:25:26.845] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 38   [11:25:26.851] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 6.272992000041995ms
+Info 39   [11:25:26.851] Different program with same set of files
+Info 40   [11:25:48.904] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 41   [11:25:48.910] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 6.61069200001657ms
+Info 42   [11:25:48.910] Different program with same set of files
+Info 43   [11:25:48.912] getCompletionData: Get current token: 0.042849000019486994
+Info 44   [11:25:48.913] getCompletionData: Is inside comment: 0.006461000011768192
+Info 45   [11:25:48.913] getCompletionData: Get previous token: 0.10410999995656312
+Info 46   [11:25:48.913] getCompletionsAtPosition: isCompletionListBlocker: 0.31016900000395253
+Info 47   [11:25:48.917] getCompletionData: Semantic work: 3.2364289999823086
+Info 48   [11:25:48.925] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.582402000029106
+Info 49   [11:25:49.732] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 50   [11:25:49.741] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 8.562758999993093ms
+Info 51   [11:25:49.741] Different program with same set of files
+Info 52   [11:25:49.982] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 53   [11:25:49.991] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 9.349531000014395ms
+Info 54   [11:25:49.991] Different program with same set of files
+Info 55   [11:25:49.992] getCompletionData: Get current token: 0.06589099997654557
+Info 56   [11:25:49.992] getCompletionData: Is inside comment: 0.014145999972242862
+Info 57   [11:25:49.992] getCompletionData: Get previous token: 0.09052600001450628
+Info 58   [11:25:49.992] getCompletionsAtPosition: isCompletionListBlocker: 0.0043379999697208405
+Info 59   [11:25:49.993] getCompletionData: Semantic work: 1.172199000022374
+Info 60   [11:25:49.998] getCompletionData: Get current token: 0.04584400000749156
+Info 61   [11:25:49.998] getCompletionData: Is inside comment: 0.00812499999301508
+Info 62   [11:25:49.998] getCompletionData: Get previous token: 0.13004800002090633
+Info 63   [11:25:49.999] getCompletionsAtPosition: isCompletionListBlocker: 0.003436999977566302
+Info 64   [11:25:49.999] getCompletionData: Semantic work: 0.4133579999906942
+Info 65   [11:25:50.520] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 66   [11:25:50.525] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 4.685539000027347ms
+Info 67   [11:25:50.525] Different program with same set of files
+Info 68   [11:25:52.756] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 69   [11:25:52.761] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 5.283468000008725ms
+Info 70   [11:25:52.761] Different program with same set of files
+Info 71   [11:26:15.676] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 72   [11:26:15.681] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 5.712201000016648ms
+Info 73   [11:26:15.681] Different program with same set of files
+Info 74   [11:26:15.682] getCompletionData: Get current token: 0.030516999948304147
+Info 75   [11:26:15.682] getCompletionData: Is inside comment: 0.0048890000325627625
+Info 76   [11:26:15.682] getCompletionData: Get previous token: 0.10444500000448897
+Info 77   [11:26:15.682] getCompletionsAtPosition: isCompletionListBlocker: 0.003176000027451664
+Info 78   [11:26:15.688] getCompletionData: Semantic work: 5.2095919999992475
+Info 79   [11:26:15.732] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 44.212274999998044
+Info 80   [11:26:16.025] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 81   [11:26:16.031] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 6.633866999996826ms
+Info 82   [11:26:16.031] Different program with same set of files
+Info 83   [11:26:16.032] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 84   [11:26:16.036] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 4.578909999981988ms
+Info 85   [11:26:16.036] Different program with same set of files
+Info 86   [11:26:16.649] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 87   [11:26:16.653] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 4.24921399995219ms
+Info 88   [11:26:16.653] Different program with same set of files
+Info 89   [11:26:17.242] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 90   [11:26:17.248] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 6.828856999985874ms
+Info 91   [11:26:17.248] Different program with same set of files
+Info 92   [11:26:17.421] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 93   [11:26:17.431] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 9.667699999990873ms
+Info 94   [11:26:17.431] Different program with same set of files
+Info 95   [11:26:17.431] getCompletionData: Get current token: 0.10880300001008436
+Info 96   [11:26:17.431] getCompletionData: Is inside comment: 0.019035000004805624
+Info 97   [11:26:17.432] getCompletionData: Get previous token: 0.2134889999870211
+Info 98   [11:26:17.432] getCompletionsAtPosition: isCompletionListBlocker: 0.008136000018566847
+Info 99   [11:26:17.437] getCompletionData: Semantic work: 5.447577000013553
+Info 100  [11:26:17.443] getCompletionData: Get current token: 0.04153699998278171
+Info 101  [11:26:17.443] getCompletionData: Is inside comment: 0.006462000019382685
+Info 102  [11:26:17.443] getCompletionData: Get previous token: 0.10485599999083206
+Info 103  [11:26:17.443] getCompletionsAtPosition: isCompletionListBlocker: 0.0033659999608062208
+Info 104  [11:26:17.443] getCompletionData: Semantic work: 0.2693330000038259
+Info 105  [11:26:17.816] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 106  [11:26:17.821] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 5.781719999969937ms
+Info 107  [11:26:17.821] Different program with same set of files
+Info 108  [11:26:18.465] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 109  [11:26:18.470] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 5.2906090000178665ms
+Info 110  [11:26:18.470] Different program with same set of files
+Info 111  [11:26:18.826] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 112  [11:26:18.829] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 2.872510000015609ms
+Info 113  [11:26:18.829] Different program with same set of files
+Info 114  [11:27:02.563] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 115  [11:27:02.571] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 7.873759999987669ms
+Info 116  [11:27:02.571] Different program with same set of files
+Info 117  [11:27:03.298] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 118  [11:27:03.304] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 6.358547999989241ms
+Info 119  [11:27:03.304] Different program with same set of files
+Info 120  [11:27:03.305] getCompletionData: Get current token: 0.03228099999250844
+Info 121  [11:27:03.305] getCompletionData: Is inside comment: 0.053850999975111336
+Info 122  [11:27:03.305] getCompletionData: Get previous token: 0.08541099994909018
+Info 123  [11:27:03.305] getCompletionsAtPosition: isCompletionListBlocker: 0.1258559999987483
+Info 124  [11:27:03.312] getExportInfoMap: cache miss or empty; calculating new results
+Info 125  [11:27:03.343] forEachExternalModuleToImportFrom autoImportProvider: 7.496209999953862
+Info 126  [11:27:03.343] getExportInfoMap: done in 31.6626760000363 ms
+Info 127  [11:27:03.356] collectAutoImports: resolved 1 module specifiers, plus 4 ambient and 0 from cache
+Info 128  [11:27:03.356] collectAutoImports: response is complete
+Info 129  [11:27:03.356] collectAutoImports: 12.230629999947269
+Info 130  [11:27:03.356] getCompletionData: Semantic work: 50.3423639999819
+Info 131  [11:27:03.367] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.162078999972437
+Info 132  [11:27:03.371] getCompletionData: Get current token: 0.012784000020474195
+Info 133  [11:27:03.371] getCompletionData: Is inside comment: 0.025437999982386827
+Info 134  [11:27:03.371] getCompletionData: Get previous token: 0.08807599998544902
+Info 135  [11:27:03.371] getCompletionsAtPosition: isCompletionListBlocker: 0.016461000021081418
+Info 136  [11:27:03.372] getExportInfoMap: cache hit
+Info 137  [11:27:03.378] collectAutoImports: resolved 0 module specifiers, plus 4 ambient and 20 from cache
+Info 138  [11:27:03.378] collectAutoImports: response is complete
+Info 139  [11:27:03.378] collectAutoImports: 6.173941000015475
+Info 140  [11:27:03.378] getCompletionData: Semantic work: 7.542806999990717
+Info 141  [11:27:03.390] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.93051600002218
+Info 142  [11:27:03.394] getCompletionData: Get current token: 0.012703999993391335
+Info 143  [11:27:03.394] getCompletionData: Is inside comment: 0.02528800000436604
+Info 144  [11:27:03.394] getCompletionData: Get previous token: 0.04483500000787899
+Info 145  [11:27:03.394] getCompletionsAtPosition: isCompletionListBlocker: 0.010318999993614852
+Info 146  [11:27:03.395] getExportInfoMap: cache hit
+Info 147  [11:27:03.401] collectAutoImports: resolved 0 module specifiers, plus 4 ambient and 20 from cache
+Info 148  [11:27:03.401] collectAutoImports: response is complete
+Info 149  [11:27:03.401] collectAutoImports: 5.67437099997187
+Info 150  [11:27:03.401] getCompletionData: Semantic work: 7.211775000032503
+Info 151  [11:27:03.411] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.365369000006467
+Info 152  [11:27:03.414] getCompletionData: Get current token: 0.014997999998740852
+Info 153  [11:27:03.414] getCompletionData: Is inside comment: 0.03181999997468665
+Info 154  [11:27:03.414] getCompletionData: Get previous token: 0.0404660000349395
+Info 155  [11:27:03.414] getCompletionsAtPosition: isCompletionListBlocker: 0.009778000006917864
+Info 156  [11:27:03.416] getExportInfoMap: cache hit
+Info 157  [11:27:03.419] collectAutoImports: resolved 0 module specifiers, plus 4 ambient and 20 from cache
+Info 158  [11:27:03.420] collectAutoImports: response is complete
+Info 159  [11:27:03.420] collectAutoImports: 3.738486999995075
+Info 160  [11:27:03.420] getCompletionData: Semantic work: 5.298192999965977
+Info 161  [11:27:03.426] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.777086000016425
+Info 162  [11:27:03.429] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 163  [11:27:03.433] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 3.681057999958284ms
+Info 164  [11:27:03.433] Different program with same set of files
+Info 165  [11:27:04.143] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 166  [11:27:04.148] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 5.538009000010788ms
+Info 167  [11:27:04.148] Different program with same set of files
+Info 168  [11:27:04.149] getCompletionData: Get current token: 0.029646000009961426
+Info 169  [11:27:04.149] getCompletionData: Is inside comment: 0.05242899997392669
+Info 170  [11:27:04.149] getCompletionData: Get previous token: 0.0836480000289157
+Info 171  [11:27:04.149] getCompletionsAtPosition: isCompletionListBlocker: 0.015710000006947666
+Info 172  [11:27:04.150] getCompletionData: Semantic work: 0.8412850000313483
+Info 173  [11:27:04.153] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2.453559999994468
+Info 174  [11:27:04.202] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 175  [11:27:04.208] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 6.041275999974459ms
+Info 176  [11:27:04.208] Different program with same set of files
+Info 177  [11:27:06.981] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 178  [11:27:06.990] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 9.055944000021555ms
+Info 179  [11:27:06.990] Different program with same set of files
+Info 180  [11:27:07.287] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 181  [11:27:07.293] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 5.339702999975998ms
+Info 182  [11:27:07.293] Different program with same set of files
+Info 183  [11:27:07.918] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 184  [11:27:07.923] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 4.697609000024386ms
+Info 185  [11:27:07.923] Different program with same set of files
+Info 186  [11:27:10.956] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 187  [11:27:10.963] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 6.381295000028331ms
+Info 188  [11:27:10.963] Different program with same set of files
+Info 189  [11:27:10.963] getCompletionData: Get current token: 0.051888000045437366
+Info 190  [11:27:10.963] getCompletionData: Is inside comment: 0.005049999977927655
+Info 191  [11:27:10.964] getCompletionData: Get previous token: 0.13940399995772168
+Info 192  [11:27:10.964] getCompletionsAtPosition: isCompletionListBlocker: 0.07740599999669939
+Info 193  [11:27:10.968] getExportInfoMap: cache hit
+Info 194  [11:27:10.999] collectAutoImports: resolved 9 module specifiers, plus 83 ambient and -2689 from cache
+Info 195  [11:27:10.999] collectAutoImports: response is complete
+Info 196  [11:27:10.999] collectAutoImports: 31.18591599998763
+Info 197  [11:27:10.999] getCompletionData: Semantic work: 35.50826400000369
+Info 198  [11:27:11.019] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 18.66279100003885
+Info 199  [11:27:11.025] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 200  [11:27:11.029] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 31 structureChanged: false structureIsReused:: Completely Elapsed: 4.073516999953426ms
+Info 201  [11:27:11.029] Different program with same set of files
+Info 202  [11:27:11.030] getCompletionData: Get current token: 0.024014999973587692
+Info 203  [11:27:11.030] getCompletionData: Is inside comment: 0.0027760000084526837
+Info 204  [11:27:11.030] getCompletionData: Get previous token: 0.06992199999513105
+Info 205  [11:27:11.030] getCompletionsAtPosition: isCompletionListBlocker: 0.004126999992877245
+Info 206  [11:27:11.033] getExportInfoMap: cache hit
+Info 207  [11:27:11.043] collectAutoImports: resolved 0 module specifiers, plus 41 ambient and 196 from cache
+Info 208  [11:27:11.043] collectAutoImports: response is complete
+Info 209  [11:27:11.043] collectAutoImports: 9.775476000038907
+Info 210  [11:27:11.043] getCompletionData: Semantic work: 12.885321000008844
+Info 211  [11:27:11.050] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.359124000009615
+Info 212  [11:27:11.174] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 213  [11:27:11.180] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 32 structureChanged: false structureIsReused:: Completely Elapsed: 5.254781999974512ms
+Info 214  [11:27:11.180] Different program with same set of files
+Info 215  [11:27:11.180] getCompletionData: Get current token: 0.02322400000412017
+Info 216  [11:27:11.180] getCompletionData: Is inside comment: 0.00269499997375533
+Info 217  [11:27:11.180] getCompletionData: Get previous token: 0.06687700003385544
+Info 218  [11:27:11.180] getCompletionsAtPosition: isCompletionListBlocker: 0.0032660000142641366
+Info 219  [11:27:11.183] getExportInfoMap: cache hit
+Info 220  [11:27:11.192] collectAutoImports: resolved 0 module specifiers, plus 16 ambient and 114 from cache
+Info 221  [11:27:11.192] collectAutoImports: response is complete
+Info 222  [11:27:11.192] collectAutoImports: 9.553145000012591
+Info 223  [11:27:11.192] getCompletionData: Semantic work: 11.982441999949515
+Info 224  [11:27:11.203] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.74848499998916
+Info 225  [11:27:11.567] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 226  [11:27:11.572] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 33 structureChanged: false structureIsReused:: Completely Elapsed: 5.354712000000291ms
+Info 227  [11:27:11.572] Different program with same set of files
+Info 228  [11:27:11.572] getCompletionData: Get current token: 0.032500999979674816
+Info 229  [11:27:11.572] getCompletionData: Is inside comment: 0.0036570000229403377
+Info 230  [11:27:11.572] getCompletionData: Get previous token: 0.06965200003469363
+Info 231  [11:27:11.573] getCompletionsAtPosition: isCompletionListBlocker: 0.003938000008929521
+Info 232  [11:27:11.573] getCompletionData: Semantic work: 0.8789330000290647
+Info 233  [11:27:11.574] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.5166069999686442
+Info 234  [11:27:12.359] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 235  [11:27:12.364] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 34 structureChanged: false structureIsReused:: Completely Elapsed: 5.14515500003472ms
+Info 236  [11:27:12.364] Different program with same set of files
+Info 237  [11:27:12.575] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 238  [11:27:12.583] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 35 structureChanged: false structureIsReused:: Completely Elapsed: 7.24202200002037ms
+Info 239  [11:27:12.583] Different program with same set of files
+Info 240  [11:27:12.584] getCompletionData: Get current token: 0.09181400004308671
+Info 241  [11:27:12.584] getCompletionData: Is inside comment: 0.017252999998163432
+Info 242  [11:27:12.584] getCompletionData: Get previous token: 0.10155199997825548
+Info 243  [11:27:12.584] getCompletionsAtPosition: isCompletionListBlocker: 0.005119999987073243
+Info 244  [11:27:12.585] getCompletionData: Semantic work: 0.7560609999927692
+Info 245  [11:27:12.595] getCompletionData: Get current token: 0.09845599997788668
+Info 246  [11:27:12.595] getCompletionData: Is inside comment: 0.008886999974492937
+Info 247  [11:27:12.595] getCompletionData: Get previous token: 0.0809540000045672
+Info 248  [11:27:12.595] getCompletionsAtPosition: isCompletionListBlocker: 0.005200000014156103
+Info 249  [11:27:12.596] getCompletionData: Semantic work: 0.2795790000236593
+Info 250  [11:27:12.896] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 251  [11:27:12.903] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 36 structureChanged: false structureIsReused:: Completely Elapsed: 7.0220069999923ms
+Info 252  [11:27:12.903] Different program with same set of files
+Info 253  [11:27:12.985] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 254  [11:27:12.990] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 37 structureChanged: false structureIsReused:: Completely Elapsed: 5.59248099999968ms
+Info 255  [11:27:12.991] Different program with same set of files
+Info 256  [11:27:13.335] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 257  [11:27:13.341] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 38 structureChanged: false structureIsReused:: Completely Elapsed: 5.981596999976318ms
+Info 258  [11:27:13.341] Different program with same set of files
+Info 259  [11:27:14.336] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 260  [11:27:14.341] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 39 structureChanged: false structureIsReused:: Completely Elapsed: 5.361655000015162ms
+Info 261  [11:27:14.341] Different program with same set of files
+Info 262  [11:27:15.165] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 263  [11:27:15.170] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 40 structureChanged: false structureIsReused:: Completely Elapsed: 5.211972999968566ms
+Info 264  [11:27:15.170] Different program with same set of files
+Info 265  [11:27:15.171] getCompletionData: Get current token: 0.030306999979075044
+Info 266  [11:27:15.171] getCompletionData: Is inside comment: 0.0035470000002533197
+Info 267  [11:27:15.171] getCompletionData: Get previous token: 0.06689700001152232
+Info 268  [11:27:15.171] getCompletionsAtPosition: isCompletionListBlocker: 0.003938000008929521
+Info 269  [11:27:15.173] getCompletionData: Semantic work: 1.7627460000221618
+Info 270  [11:27:15.177] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3.611733000027016
+Info 271  [11:27:15.595] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 272  [11:27:15.600] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 41 structureChanged: false structureIsReused:: Completely Elapsed: 4.654145999986213ms
+Info 273  [11:27:15.600] Different program with same set of files
+Info 274  [11:27:15.882] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 275  [11:27:15.888] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 42 structureChanged: false structureIsReused:: Completely Elapsed: 6.651914999994915ms
+Info 276  [11:27:15.888] Different program with same set of files
+Info 277  [11:27:15.889] getCompletionData: Get current token: 0.08522100001573563
+Info 278  [11:27:15.889] getCompletionData: Is inside comment: 0.01296399999409914
+Info 279  [11:27:15.889] getCompletionData: Get previous token: 0.08719500002916902
+Info 280  [11:27:15.889] getCompletionsAtPosition: isCompletionListBlocker: 0.005100000009406358
+Info 281  [11:27:15.891] getCompletionData: Semantic work: 1.661885000008624
+Info 282  [11:27:15.897] getCompletionData: Get current token: 0.06328000000212342
+Info 283  [11:27:15.897] getCompletionData: Is inside comment: 0.006661999970674515
+Info 284  [11:27:15.897] getCompletionData: Get previous token: 0.07560300000477582
+Info 285  [11:27:15.897] getCompletionsAtPosition: isCompletionListBlocker: 0.0045689999824389815
+Info 286  [11:27:15.897] getCompletionData: Semantic work: 0.39679099997738376
+Info 287  [11:27:16.385] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 288  [11:27:16.389] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 43 structureChanged: false structureIsReused:: Completely Elapsed: 3.7413090000045486ms
+Info 289  [11:27:16.389] Different program with same set of files
+Info 290  [11:27:17.395] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 291  [11:27:17.399] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 44 structureChanged: false structureIsReused:: Completely Elapsed: 4.654917999985628ms
+Info 292  [11:27:17.399] Different program with same set of files
+Info 293  [11:27:25.973] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 294  [11:27:25.977] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 45 structureChanged: false structureIsReused:: Completely Elapsed: 4.628406999981962ms
+Info 295  [11:27:25.977] Different program with same set of files
+Info 296  [11:27:29.317] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 297  [11:27:29.322] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 46 structureChanged: false structureIsReused:: Completely Elapsed: 4.945768000092357ms
+Info 298  [11:27:29.322] Different program with same set of files
+Info 299  [11:27:30.358] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 300  [11:27:30.364] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 47 structureChanged: false structureIsReused:: Completely Elapsed: 5.568976999958977ms
+Info 301  [11:27:30.364] Different program with same set of files
+Info 302  [11:27:44.364] Search path: /home/hann0t/Development/react-hexagonal-architecture/src/domain/entities
+Info 303  [11:27:44.364] For info: /home/hann0t/Development/react-hexagonal-architecture/src/domain/entities/Cart.ts :: Config file name: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 304  [11:28:05.055] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 305  [11:28:05.060] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 48 structureChanged: false structureIsReused:: Completely Elapsed: 4.930750000057742ms
+Info 306  [11:28:05.060] Different program with same set of files
+Info 307  [11:28:05.969] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 308  [11:28:05.975] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 49 structureChanged: false structureIsReused:: Completely Elapsed: 5.279910999932326ms
+Info 309  [11:28:05.975] Different program with same set of files
+Info 310  [11:28:06.296] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 311  [11:28:06.300] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 50 structureChanged: false structureIsReused:: Completely Elapsed: 4.8246389999985695ms
+Info 312  [11:28:06.300] Different program with same set of files
+Info 313  [11:28:06.301] getCompletionData: Get current token: 0.02524800004903227
+Info 314  [11:28:06.301] getCompletionData: Is inside comment: 0.025769000058062375
+Info 315  [11:28:06.301] getCompletionData: Get previous token: 0.036189000005833805
+Info 316  [11:28:06.301] getCompletionsAtPosition: isCompletionListBlocker: 0.003636999987065792
+Info 317  [11:28:06.305] getExportInfoMap: cache miss or empty; calculating new results
+Info 318  [11:28:06.339] forEachExternalModuleToImportFrom autoImportProvider: 8.28508599998895
+Info 319  [11:28:06.339] getExportInfoMap: done in 34.2663140000077 ms
+Info 320  [11:28:06.361] collectAutoImports: resolved 6 module specifiers, plus 43 ambient and -1139 from cache
+Info 321  [11:28:06.361] collectAutoImports: response is complete
+Info 322  [11:28:06.361] collectAutoImports: 21.674570000031963
+Info 323  [11:28:06.361] getCompletionData: Semantic work: 59.97660000005271
+Info 324  [11:28:06.377] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.354413999943063
+Info 325  [11:28:06.960] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 326  [11:28:06.966] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 51 structureChanged: false structureIsReused:: Completely Elapsed: 6.262279000016861ms
+Info 327  [11:28:06.966] Different program with same set of files
+Info 328  [11:28:06.967] getCompletionData: Get current token: 0.01612000004388392
+Info 329  [11:28:06.967] getCompletionData: Is inside comment: 0.036469000042416155
+Info 330  [11:28:06.967] getCompletionData: Get previous token: 0.03240099991671741
+Info 331  [11:28:06.967] getCompletionsAtPosition: isCompletionListBlocker: 0.0036269999109208584
+Info 332  [11:28:06.967] getCompletionData: Semantic work: 0.32644800003618
+Info 333  [11:28:06.990] getCompletionData: Get current token: 0.016540999989956617
+Info 334  [11:28:06.990] getCompletionData: Is inside comment: 0.038843999966047704
+Info 335  [11:28:06.990] getCompletionData: Get previous token: 0.03447499999310821
+Info 336  [11:28:06.990] getCompletionsAtPosition: isCompletionListBlocker: 0.004819000023417175
+Info 337  [11:28:06.991] getCompletionData: Semantic work: 0.3478579999646172
+Info 338  [11:28:07.001] getCompletionData: Get current token: 0.017822999972850084
+Info 339  [11:28:07.001] getCompletionData: Is inside comment: 0.037490999908186495
+Info 340  [11:28:07.001] getCompletionData: Get previous token: 0.03306199994403869
+Info 341  [11:28:07.001] getCompletionsAtPosition: isCompletionListBlocker: 0.003246000036597252
+Info 342  [11:28:07.001] getCompletionData: Semantic work: 0.1807719999924302
+Info 343  [11:28:07.023] getCompletionData: Get current token: 0.01624000002630055
+Info 344  [11:28:07.023] getCompletionData: Is inside comment: 0.03671899996697903
+Info 345  [11:28:07.023] getCompletionData: Get previous token: 0.03234199993312359
+Info 346  [11:28:07.023] getCompletionsAtPosition: isCompletionListBlocker: 0.0032659999560564756
+Info 347  [11:28:07.024] getCompletionData: Semantic work: 0.17971000005491078
+Info 348  [11:28:09.348] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 349  [11:28:09.354] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 52 structureChanged: false structureIsReused:: Completely Elapsed: 5.765138000017032ms
+Info 350  [11:28:09.354] Different program with same set of files
+Info 351  [11:28:09.354] getCompletionData: Get current token: 0.021911000018008053
+Info 352  [11:28:09.354] getCompletionData: Is inside comment: 0.026880999910645187
+Info 353  [11:28:09.354] getCompletionData: Get previous token: 0.041858999989926815
+Info 354  [11:28:09.354] getCompletionsAtPosition: isCompletionListBlocker: 0.0037770000053569674
+Info 355  [11:28:09.355] getCompletionData: Semantic work: 0.21862400008831173
+Info 356  [11:28:09.368] getCompletionData: Get current token: 0.014917999971657991
+Info 357  [11:28:09.368] getCompletionData: Is inside comment: 0.02571900002658367
+Info 358  [11:28:09.368] getCompletionData: Get previous token: 0.044224000070244074
+Info 359  [11:28:09.368] getCompletionsAtPosition: isCompletionListBlocker: 0.004928999929688871
+Info 360  [11:28:09.369] getCompletionData: Semantic work: 0.2662230000132695
+Info 361  [11:28:09.390] getCompletionData: Get current token: 0.015148999984376132
+Info 362  [11:28:09.390] getCompletionData: Is inside comment: 0.025938999955542386
+Info 363  [11:28:09.390] getCompletionData: Get previous token: 0.04365199990570545
+Info 364  [11:28:09.390] getCompletionsAtPosition: isCompletionListBlocker: 0.003576999995857477
+Info 365  [11:28:09.390] getCompletionData: Semantic work: 0.1599719999358058
+Info 366  [11:28:09.412] getCompletionData: Get current token: 0.014147000038065016
+Info 367  [11:28:09.412] getCompletionData: Is inside comment: 0.024757000035606325
+Info 368  [11:28:09.412] getCompletionData: Get previous token: 0.04113799997139722
+Info 369  [11:28:09.412] getCompletionsAtPosition: isCompletionListBlocker: 0.009548000060021877
+Info 370  [11:28:09.412] getCompletionData: Semantic work: 0.14084700006060302
+Info 371  [11:28:09.473] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 372  [11:28:09.479] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 53 structureChanged: false structureIsReused:: Completely Elapsed: 5.536465000011958ms
+Info 373  [11:28:09.479] Different program with same set of files
+Info 374  [11:28:09.479] getCompletionData: Get current token: 0.019656999967992306
+Info 375  [11:28:09.479] getCompletionData: Is inside comment: 0.02645999996457249
+Info 376  [11:28:09.479] getCompletionData: Get previous token: 0.04472400003578514
+Info 377  [11:28:09.479] getCompletionsAtPosition: isCompletionListBlocker: 0.0064619999611750245
+Info 378  [11:28:09.479] getCompletionData: Semantic work: 0.2317190000321716
+Info 379  [11:28:09.493] getCompletionData: Get current token: 0.014917999971657991
+Info 380  [11:28:09.493] getCompletionData: Is inside comment: 0.019837000058032572
+Info 381  [11:28:09.493] getCompletionData: Get previous token: 0.03038800007198006
+Info 382  [11:28:09.493] getCompletionsAtPosition: isCompletionListBlocker: 0.004699000041000545
+Info 383  [11:28:09.493] getCompletionData: Semantic work: 0.1422390000661835
+Info 384  [11:28:09.514] getCompletionData: Get current token: 0.016340999980457127
+Info 385  [11:28:09.515] getCompletionData: Is inside comment: 0.02298400003928691
+Info 386  [11:28:09.515] getCompletionData: Get previous token: 0.030137000023387372
+Info 387  [11:28:09.515] getCompletionsAtPosition: isCompletionListBlocker: 0.0034959999611601233
+Info 388  [11:28:09.515] getCompletionData: Semantic work: 0.11728200002107769
+Info 389  [11:28:09.536] getCompletionData: Get current token: 0.013495999970473349
+Info 390  [11:28:09.537] getCompletionData: Is inside comment: 0.020027999999001622
+Info 391  [11:28:09.537] getCompletionData: Get previous token: 0.02950599999167025
+Info 392  [11:28:09.537] getCompletionsAtPosition: isCompletionListBlocker: 0.0034860000014305115
+Info 393  [11:28:09.537] getCompletionData: Semantic work: 0.11502799997106194
+Info 394  [11:28:09.583] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 395  [11:28:09.588] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 54 structureChanged: false structureIsReused:: Completely Elapsed: 4.499513000017032ms
+Info 396  [11:28:09.588] Different program with same set of files
+Info 397  [11:28:09.588] getCompletionData: Get current token: 0.016501000034622848
+Info 398  [11:28:09.588] getCompletionData: Is inside comment: 0.02025800000410527
+Info 399  [11:28:09.588] getCompletionData: Get previous token: 0.03230199997778982
+Info 400  [11:28:09.588] getCompletionsAtPosition: isCompletionListBlocker: 0.005611000000499189
+Info 401  [11:28:09.588] getCompletionData: Semantic work: 0.1741090000141412
+Info 402  [11:28:09.595] getCompletionData: Get current token: 0.014576999936252832
+Info 403  [11:28:09.595] getCompletionData: Is inside comment: 0.019216999993659556
+Info 404  [11:28:09.595] getCompletionData: Get previous token: 0.030847999965772033
+Info 405  [11:28:09.595] getCompletionsAtPosition: isCompletionListBlocker: 0.003446000046096742
+Info 406  [11:28:09.596] getCompletionData: Semantic work: 0.1271199999609962
+Info 407  [11:28:09.617] getCompletionData: Get current token: 0.013956999988295138
+Info 408  [11:28:09.617] getCompletionData: Is inside comment: 0.01935700001195073
+Info 409  [11:28:09.617] getCompletionData: Get previous token: 0.03087799996137619
+Info 410  [11:28:09.617] getCompletionsAtPosition: isCompletionListBlocker: 0.003465999965555966
+Info 411  [11:28:09.617] getCompletionData: Semantic work: 0.11888500000350177
+Info 412  [11:28:09.635] getCompletionData: Get current token: 0.014016999979503453
+Info 413  [11:28:09.635] getCompletionData: Is inside comment: 0.01904599997214973
+Info 414  [11:28:09.636] getCompletionData: Get previous token: 0.030678000068292022
+Info 415  [11:28:09.636] getCompletionsAtPosition: isCompletionListBlocker: 0.003285999991931021
+Info 416  [11:28:09.636] getCompletionData: Semantic work: 0.24354999989736825
+Info 417  [11:28:12.370] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 418  [11:28:12.375] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 55 structureChanged: false structureIsReused:: Completely Elapsed: 4.242567999986932ms
+Info 419  [11:28:12.375] Different program with same set of files
+Info 420  [11:28:13.004] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 421  [11:28:13.010] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 56 structureChanged: false structureIsReused:: Completely Elapsed: 5.907296999939717ms
+Info 422  [11:28:13.010] Different program with same set of files
+Info 423  [11:28:13.252] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 424  [11:28:13.257] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 57 structureChanged: false structureIsReused:: Completely Elapsed: 4.655668999999762ms
+Info 425  [11:28:13.257] Different program with same set of files
+Info 426  [11:28:13.827] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 427  [11:28:13.833] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 58 structureChanged: false structureIsReused:: Completely Elapsed: 6.300160999991931ms
+Info 428  [11:28:13.833] Different program with same set of files
+Info 429  [11:28:13.833] getCompletionData: Get current token: 0.015309000038541853
+Info 430  [11:28:13.833] getCompletionData: Is inside comment: 0.02621999999973923
+Info 431  [11:28:13.833] getCompletionData: Get previous token: 0.022882999968715012
+Info 432  [11:28:13.833] getCompletionsAtPosition: isCompletionListBlocker: 0.00483900005929172
+Info 433  [11:28:13.834] getCompletionData: Semantic work: 0.4214780000038445
+Info 434  [11:28:13.834] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.38901599997188896
+Info 435  [11:28:14.473] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 436  [11:28:14.478] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 59 structureChanged: false structureIsReused:: Completely Elapsed: 4.674804999958724ms
+Info 437  [11:28:14.478] Different program with same set of files
+Info 438  [11:28:14.493] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 439  [11:28:14.503] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 60 structureChanged: false structureIsReused:: Completely Elapsed: 10.186524000018835ms
+Info 440  [11:28:14.503] Different program with same set of files
+Info 441  [11:28:14.691] getCompletionData: Get current token: 0.011391000007279217
+Info 442  [11:28:14.691] getCompletionData: Is inside comment: 0.026861000107601285
+Info 443  [11:28:14.691] getCompletionData: Get previous token: 0.02275300002656877
+Info 444  [11:28:14.691] getCompletionsAtPosition: isCompletionListBlocker: 0.0046190000139176846
+Info 445  [11:28:14.693] getCompletionData: Semantic work: 1.6121700000949204
+Info 446  [11:28:14.696] getCompletionData: Get current token: 0.01152100006584078
+Info 447  [11:28:14.696] getCompletionData: Is inside comment: 0.026920999982394278
+Info 448  [11:28:14.696] getCompletionData: Get previous token: 0.024345999932847917
+Info 449  [11:28:14.696] getCompletionsAtPosition: isCompletionListBlocker: 0.003114999970421195
+Info 450  [11:28:14.697] getCompletionData: Semantic work: 0.3995959999738261
+Info 451  [11:28:14.700] getCompletionData: Get current token: 0.01505899999756366
+Info 452  [11:28:14.701] getCompletionData: Is inside comment: 0.03536700003314763
+Info 453  [11:28:14.701] getCompletionData: Get previous token: 0.03213099995627999
+Info 454  [11:28:14.701] getCompletionsAtPosition: isCompletionListBlocker: 0.0038269999204203486
+Info 455  [11:28:14.701] getCompletionData: Semantic work: 0.526486000046134
+Info 456  [11:28:14.723] getCompletionData: Get current token: 0.014698000042699277
+Info 457  [11:28:14.723] getCompletionData: Is inside comment: 0.03527700004633516
+Info 458  [11:28:14.723] getCompletionData: Get previous token: 0.03223099990282208
+Info 459  [11:28:14.723] getCompletionsAtPosition: isCompletionListBlocker: 0.0039969999343156815
+Info 460  [11:28:14.724] getCompletionData: Semantic work: 0.48066000000108033
+Info 461  [11:28:15.488] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 462  [11:28:15.493] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 61 structureChanged: false structureIsReused:: Completely Elapsed: 4.741231000050902ms
+Info 463  [11:28:15.493] Different program with same set of files
+Info 464  [11:28:16.165] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 465  [11:28:16.170] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 62 structureChanged: false structureIsReused:: Completely Elapsed: 4.446532999980263ms
+Info 466  [11:28:16.170] Different program with same set of files
+Info 467  [11:28:16.170] getCompletionData: Get current token: 0.018524999963119626
+Info 468  [11:28:16.170] getCompletionData: Is inside comment: 0.025609000003896654
+Info 469  [11:28:16.170] getCompletionData: Get previous token: 0.04781100002583116
+Info 470  [11:28:16.170] getCompletionsAtPosition: isCompletionListBlocker: 0.0046790000051259995
+Info 471  [11:28:16.170] getCompletionData: Semantic work: 0.3627860000124201
+Info 472  [11:28:16.172] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1.0876479999860749
+Info 473  [11:28:17.243] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 474  [11:28:17.248] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 63 structureChanged: false structureIsReused:: Completely Elapsed: 4.791605000034906ms
+Info 475  [11:28:17.248] Different program with same set of files
+Info 476  [11:28:17.249] getCompletionData: Get current token: 0.016811999958008528
+Info 477  [11:28:17.249] getCompletionData: Is inside comment: 0.040536000044085085
+Info 478  [11:28:17.249] getCompletionData: Get previous token: 0.03636899997945875
+Info 479  [11:28:17.249] getCompletionsAtPosition: isCompletionListBlocker: 0.005260000005364418
+Info 480  [11:28:17.250] getCompletionData: Semantic work: 1.4296649999450892
+Info 481  [11:28:17.254] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3.3593659999314696
+Info 482  [11:28:18.178] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 483  [11:28:18.183] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 64 structureChanged: false structureIsReused:: Completely Elapsed: 4.712075000046752ms
+Info 484  [11:28:18.183] Different program with same set of files
+Info 485  [11:28:19.189] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 486  [11:28:19.194] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 65 structureChanged: false structureIsReused:: Completely Elapsed: 4.428940000012517ms
+Info 487  [11:28:19.194] Different program with same set of files
+Info 488  [11:28:19.527] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 489  [11:28:19.532] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 66 structureChanged: false structureIsReused:: Completely Elapsed: 4.502137999981642ms
+Info 490  [11:28:19.532] Different program with same set of files
+Info 491  [11:28:20.933] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 492  [11:28:20.937] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 67 structureChanged: false structureIsReused:: Completely Elapsed: 4.548116000019945ms
+Info 493  [11:28:20.937] Different program with same set of files
+Info 494  [11:28:21.651] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 495  [11:28:21.655] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 68 structureChanged: false structureIsReused:: Completely Elapsed: 4.171311999903992ms
+Info 496  [11:28:21.655] Different program with same set of files
+Info 497  [11:28:23.739] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 498  [11:28:23.747] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 69 structureChanged: false structureIsReused:: Completely Elapsed: 7.0115359999472275ms
+Info 499  [11:28:23.747] Different program with same set of files
+Info 500  [11:28:23.959] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 501  [11:28:23.970] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 70 structureChanged: false structureIsReused:: Completely Elapsed: 10.769777000066824ms
+Info 502  [11:28:23.970] Different program with same set of files
+Info 503  [11:28:27.798] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 504  [11:28:27.804] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 71 structureChanged: false structureIsReused:: Completely Elapsed: 6.301331999944523ms
+Info 505  [11:28:27.804] Different program with same set of files
+Info 506  [11:28:27.806] getCompletionData: Get current token: 0.046657999977469444
+Info 507  [11:28:27.806] getCompletionData: Is inside comment: 0.00971800007391721
+Info 508  [11:28:27.806] getCompletionData: Get previous token: 0.040887000039219856
+Info 509  [11:28:27.806] getCompletionsAtPosition: isCompletionListBlocker: 0.004187999991700053
+Info 510  [11:28:27.807] getCompletionData: Semantic work: 1.1921149999834597
+Info 511  [11:28:27.815] getCompletionData: Get current token: 0.026650000014342368
+Info 512  [11:28:27.815] getCompletionData: Is inside comment: 0.005720999906770885
+Info 513  [11:28:27.815] getCompletionData: Get previous token: 0.03742099995724857
+Info 514  [11:28:27.815] getCompletionsAtPosition: isCompletionListBlocker: 0.010810000007040799
+Info 515  [11:28:27.816] getCompletionData: Semantic work: 0.3357949999626726
+Info 516  [11:28:28.568] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 517  [11:28:28.575] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 72 structureChanged: false structureIsReused:: Completely Elapsed: 6.465392999933101ms
+Info 518  [11:28:28.575] Different program with same set of files
+Info 519  [11:28:30.206] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 520  [11:28:30.211] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 73 structureChanged: false structureIsReused:: Completely Elapsed: 5.065283999894746ms
+Info 521  [11:28:30.211] Different program with same set of files
+Info 522  [11:28:30.987] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 523  [11:28:30.993] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 74 structureChanged: false structureIsReused:: Completely Elapsed: 5.340344000025652ms
+Info 524  [11:28:30.993] Different program with same set of files
+Info 525  [11:28:32.027] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 526  [11:28:32.032] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 75 structureChanged: false structureIsReused:: Completely Elapsed: 4.622426999965683ms
+Info 527  [11:28:32.032] Different program with same set of files
+Info 528  [11:28:40.025] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 529  [11:28:40.030] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 76 structureChanged: false structureIsReused:: Completely Elapsed: 4.588150999974459ms
+Info 530  [11:28:40.030] Different program with same set of files
+Info 531  [11:28:40.030] getCompletionData: Get current token: 0.011792999925091863
+Info 532  [11:28:40.030] getCompletionData: Is inside comment: 0.002835000050254166
+Info 533  [11:28:40.031] getCompletionData: Get previous token: 0.05125699995551258
+Info 534  [11:28:40.031] getCompletionsAtPosition: isCompletionListBlocker: 0.07368900009896606
+Info 535  [11:28:40.036] getExportInfoMap: cache hit
+Info 536  [11:28:40.049] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 56 from cache
+Info 537  [11:28:40.049] collectAutoImports: response is complete
+Info 538  [11:28:40.049] collectAutoImports: 12.817952000070363
+Info 539  [11:28:40.049] getCompletionData: Semantic work: 18.365457999985665
+Info 540  [11:28:40.064] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12.811791000072844
+Info 541  [11:28:40.869] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 542  [11:28:40.874] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 77 structureChanged: false structureIsReused:: Completely Elapsed: 4.370048000011593ms
+Info 543  [11:28:40.874] Different program with same set of files
+Info 544  [11:28:41.464] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 545  [11:28:41.469] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 78 structureChanged: false structureIsReused:: Completely Elapsed: 4.701074999989942ms
+Info 546  [11:28:41.469] Different program with same set of files
+Info 547  [11:28:41.769] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 548  [11:28:41.775] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 79 structureChanged: false structureIsReused:: Completely Elapsed: 6.039426999981515ms
+Info 549  [11:28:41.775] Different program with same set of files
+Info 550  [11:28:42.471] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 551  [11:28:42.477] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 80 structureChanged: false structureIsReused:: Completely Elapsed: 5.989533000043593ms
+Info 552  [11:28:42.477] Different program with same set of files
+Info 553  [11:28:42.478] getCompletionData: Get current token: 0.021370999980717897
+Info 554  [11:28:42.478] getCompletionData: Is inside comment: 0.026679999893531203
+Info 555  [11:28:42.478] getCompletionData: Get previous token: 0.03725100005976856
+Info 556  [11:28:42.478] getCompletionsAtPosition: isCompletionListBlocker: 0.004268000018782914
+Info 557  [11:28:42.481] getExportInfoMap: cache hit
+Info 558  [11:28:42.559] collectAutoImports: resolved 24 module specifiers, plus 875 ambient and -15263 from cache
+Info 559  [11:28:42.559] collectAutoImports: response is complete
+Info 560  [11:28:42.559] collectAutoImports: 78.18952200002968
+Info 561  [11:28:42.559] getCompletionData: Semantic work: 81.77698900003452
+Info 562  [11:28:42.588] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 28.052667999989353
+Info 563  [11:28:42.636] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 564  [11:28:42.639] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 81 structureChanged: false structureIsReused:: Completely Elapsed: 2.8617049999302253ms
+Info 565  [11:28:42.639] Different program with same set of files
+Info 566  [11:28:43.483] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 567  [11:28:43.487] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 82 structureChanged: false structureIsReused:: Completely Elapsed: 3.8236139999935403ms
+Info 568  [11:28:43.487] Different program with same set of files
+Info 569  [11:28:46.570] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 570  [11:28:46.574] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 83 structureChanged: false structureIsReused:: Completely Elapsed: 4.6803259999724105ms
+Info 571  [11:28:46.574] Different program with same set of files
+Info 572  [11:28:47.343] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 573  [11:28:47.349] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 84 structureChanged: false structureIsReused:: Completely Elapsed: 5.39770299999509ms
+Info 574  [11:28:47.349] Different program with same set of files
+Info 575  [11:28:48.009] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 576  [11:28:48.014] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 85 structureChanged: false structureIsReused:: Completely Elapsed: 4.658575000008568ms
+Info 577  [11:28:48.014] Different program with same set of files
+Info 578  [11:28:48.692] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 579  [11:28:48.697] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 86 structureChanged: false structureIsReused:: Completely Elapsed: 4.626312999986112ms
+Info 580  [11:28:48.697] Different program with same set of files
+Info 581  [11:28:49.410] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 582  [11:28:49.415] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 87 structureChanged: false structureIsReused:: Completely Elapsed: 4.768873000051826ms
+Info 583  [11:28:49.415] Different program with same set of files
+Info 584  [11:28:49.416] getCompletionData: Get current token: 0.023985999985598028
+Info 585  [11:28:49.416] getCompletionData: Is inside comment: 0.027172000030986965
+Info 586  [11:28:49.416] getCompletionData: Get previous token: 0.04362300003413111
+Info 587  [11:28:49.416] getCompletionsAtPosition: isCompletionListBlocker: 0.013174999970942736
+Info 588  [11:28:49.420] getExportInfoMap: cache hit
+Info 589  [11:28:49.486] collectAutoImports: resolved 0 module specifiers, plus 875 ambient and 1176 from cache
+Info 590  [11:28:49.486] collectAutoImports: response is complete
+Info 591  [11:28:49.486] collectAutoImports: 66.12912200007122
+Info 592  [11:28:49.486] getCompletionData: Semantic work: 69.88671200000681
+Info 593  [11:28:49.506] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20.416960999951698
+Info 594  [11:28:49.952] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 595  [11:28:49.957] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 88 structureChanged: false structureIsReused:: Completely Elapsed: 4.922653999994509ms
+Info 596  [11:28:49.957] Different program with same set of files
+Info 597  [11:28:50.943] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 598  [11:28:50.947] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 89 structureChanged: false structureIsReused:: Completely Elapsed: 4.651530999923125ms
+Info 599  [11:28:50.947] Different program with same set of files
+Info 600  [11:28:52.405] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 601  [11:28:52.410] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 90 structureChanged: false structureIsReused:: Completely Elapsed: 4.428579000057653ms
+Info 602  [11:28:52.410] Different program with same set of files
+Info 603  [11:29:02.052] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 604  [11:29:02.057] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 91 structureChanged: false structureIsReused:: Completely Elapsed: 5.038684000028297ms
+Info 605  [11:29:02.057] Different program with same set of files
+Info 606  [11:29:06.802] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 607  [11:29:06.806] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 92 structureChanged: false structureIsReused:: Completely Elapsed: 4.489524999982677ms
+Info 608  [11:29:06.806] Different program with same set of files
+Info 609  [11:29:11.441] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 610  [11:29:11.446] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 93 structureChanged: false structureIsReused:: Completely Elapsed: 5.017423999961466ms
+Info 611  [11:29:11.446] Different program with same set of files
+Info 612  [11:29:18.010] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 613  [11:29:18.015] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 94 structureChanged: false structureIsReused:: Completely Elapsed: 5.052029000129551ms
+Info 614  [11:29:18.015] Different program with same set of files
+Info 615  [11:29:19.172] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 616  [11:29:19.178] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 95 structureChanged: false structureIsReused:: Completely Elapsed: 5.794082999927923ms
+Info 617  [11:29:19.178] Different program with same set of files
+Info 618  [11:29:19.186] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 619  [11:29:19.191] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 96 structureChanged: false structureIsReused:: Completely Elapsed: 5.407872000010684ms
+Info 620  [11:29:19.191] Different program with same set of files
+Info 621  [11:29:20.392] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 622  [11:29:20.398] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 97 structureChanged: false structureIsReused:: Completely Elapsed: 5.587691999971867ms
+Info 623  [11:29:20.398] Different program with same set of files
+Info 624  [11:29:20.399] getCompletionData: Get current token: 0.028073000023141503
+Info 625  [11:29:20.399] getCompletionData: Is inside comment: 0.0559449999127537
+Info 626  [11:29:20.399] getCompletionData: Get previous token: 0.09115200000815094
+Info 627  [11:29:20.399] getCompletionsAtPosition: isCompletionListBlocker: 0.004147999919950962
+Info 628  [11:29:20.400] getCompletionData: Semantic work: 0.6780230000149459
+Info 629  [11:29:20.402] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2.0854759998619556
+Info 630  [11:29:20.842] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 631  [11:29:20.847] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 98 structureChanged: false structureIsReused:: Completely Elapsed: 5.1215099999681115ms
+Info 632  [11:29:20.847] Different program with same set of files
+Info 633  [11:29:21.001] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 634  [11:29:21.006] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 99 structureChanged: false structureIsReused:: Completely Elapsed: 4.560959999915212ms
+Info 635  [11:29:21.006] Different program with same set of files
+Info 636  [11:29:21.653] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 637  [11:29:21.658] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 100 structureChanged: false structureIsReused:: Completely Elapsed: 4.852069999789819ms
+Info 638  [11:29:21.658] Different program with same set of files
+Info 639  [11:29:21.737] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 640  [11:29:21.742] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 101 structureChanged: false structureIsReused:: Completely Elapsed: 4.43373900000006ms
+Info 641  [11:29:21.742] Different program with same set of files
+Info 642  [11:29:21.938] getCompletionData: Get current token: 0.020197999896481633
+Info 643  [11:29:21.938] getCompletionData: Is inside comment: 0.0047889999113976955
+Info 644  [11:29:21.938] getCompletionData: Get previous token: 0.08801700011827052
+Info 645  [11:29:21.938] getCompletionsAtPosition: isCompletionListBlocker: 0.00725400005467236
+Info 646  [11:29:21.941] getExportInfoMap: cache miss or empty; calculating new results
+Info 647  [11:29:21.972] forEachExternalModuleToImportFrom autoImportProvider: 7.719285999890417
+Info 648  [11:29:21.972] getExportInfoMap: done in 30.514155000215396 ms
+Info 649  [11:29:21.993] collectAutoImports: resolved 10 module specifiers, plus 83 ambient and -3020 from cache
+Info 650  [11:29:21.993] collectAutoImports: response is complete
+Info 651  [11:29:21.993] collectAutoImports: 21.088691000128165
+Info 652  [11:29:21.993] getCompletionData: Semantic work: 54.94168400019407
+Info 653  [11:29:22.005] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.94350800011307
+Info 654  [11:29:22.029] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 655  [11:29:22.032] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 102 structureChanged: false structureIsReused:: Completely Elapsed: 3.530260000145063ms
+Info 656  [11:29:22.032] Different program with same set of files
+Info 657  [11:29:22.032] getCompletionData: Get current token: 0.013946000020951033
+Info 658  [11:29:22.032] getCompletionData: Is inside comment: 0.002694999799132347
+Info 659  [11:29:22.033] getCompletionData: Get previous token: 0.07391900010406971
+Info 660  [11:29:22.033] getCompletionsAtPosition: isCompletionListBlocker: 0.00546099990606308
+Info 661  [11:29:22.035] getExportInfoMap: cache hit
+Info 662  [11:29:22.044] collectAutoImports: resolved 0 module specifiers, plus 41 ambient and 196 from cache
+Info 663  [11:29:22.044] collectAutoImports: response is complete
+Info 664  [11:29:22.044] collectAutoImports: 9.203433000016958
+Info 665  [11:29:22.044] getCompletionData: Semantic work: 11.684308000141755
+Info 666  [11:29:22.052] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.991938999854028
+Info 667  [11:29:22.160] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 668  [11:29:22.163] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 103 structureChanged: false structureIsReused:: Completely Elapsed: 2.5624480000697076ms
+Info 669  [11:29:22.163] Different program with same set of files
+Info 670  [11:29:22.163] getCompletionData: Get current token: 0.009617999894544482
+Info 671  [11:29:22.163] getCompletionData: Is inside comment: 0.0020039998926222324
+Info 672  [11:29:22.163] getCompletionData: Get previous token: 0.062328000087291
+Info 673  [11:29:22.163] getCompletionsAtPosition: isCompletionListBlocker: 0.005150000099092722
+Info 674  [11:29:22.166] getExportInfoMap: cache hit
+Info 675  [11:29:22.175] collectAutoImports: resolved 0 module specifiers, plus 16 ambient and 114 from cache
+Info 676  [11:29:22.175] collectAutoImports: response is complete
+Info 677  [11:29:22.175] collectAutoImports: 9.032821000088006
+Info 678  [11:29:22.175] getCompletionData: Semantic work: 11.450264999875799
+Info 679  [11:29:22.183] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.766524999868125
+Info 680  [11:29:22.249] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 681  [11:29:22.253] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 104 structureChanged: false structureIsReused:: Completely Elapsed: 3.719145999988541ms
+Info 682  [11:29:22.253] Different program with same set of files
+Info 683  [11:29:22.450] getCompletionData: Get current token: 0.01842499990016222
+Info 684  [11:29:22.450] getCompletionData: Is inside comment: 0.0033259999472647905
+Info 685  [11:29:22.450] getCompletionData: Get previous token: 0.05152700003236532
+Info 686  [11:29:22.450] getCompletionsAtPosition: isCompletionListBlocker: 0.005160000175237656
+Info 687  [11:29:22.450] getCompletionData: Semantic work: 0.19233400002121925
+Info 688  [11:29:22.451] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0.3736570000182837
+Info 689  [11:29:23.842] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 690  [11:29:23.849] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 105 structureChanged: false structureIsReused:: Completely Elapsed: 6.213957999832928ms
+Info 691  [11:29:23.849] Different program with same set of files
+Info 692  [11:29:23.849] getCompletionData: Get current token: 0.05362199991941452
+Info 693  [11:29:23.849] getCompletionData: Is inside comment: 0.011080999858677387
+Info 694  [11:29:23.849] getCompletionData: Get previous token: 0.08187500014901161
+Info 695  [11:29:23.849] getCompletionsAtPosition: isCompletionListBlocker: 0.0052900000009685755
+Info 696  [11:29:23.850] getCompletionData: Semantic work: 0.6218959998805076
+Info 697  [11:29:23.855] getCompletionData: Get current token: 0.047269999980926514
+Info 698  [11:29:23.855] getCompletionData: Is inside comment: 0.009186999872326851
+Info 699  [11:29:23.855] getCompletionData: Get previous token: 0.08323799981735647
+Info 700  [11:29:23.855] getCompletionsAtPosition: isCompletionListBlocker: 0.004638999933376908
+Info 701  [11:29:23.856] getCompletionData: Semantic work: 0.12928400002419949
+Info 702  [11:29:24.129] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 703  [11:29:24.133] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 106 structureChanged: false structureIsReused:: Completely Elapsed: 3.700531000038609ms
+Info 704  [11:29:24.133] Different program with same set of files
+Info 705  [11:29:24.177] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 706  [11:29:24.181] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 107 structureChanged: false structureIsReused:: Completely Elapsed: 4.303471999941394ms
+Info 707  [11:29:24.181] Different program with same set of files
+Info 708  [11:29:25.192] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 709  [11:29:25.197] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 108 structureChanged: false structureIsReused:: Completely Elapsed: 4.446132999844849ms
+Info 710  [11:29:25.197] Different program with same set of files
+Info 711  [11:29:36.449] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 712  [11:29:36.454] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 109 structureChanged: false structureIsReused:: Completely Elapsed: 4.4223569999448955ms
+Info 713  [11:29:36.454] Different program with same set of files
+Info 714  [11:29:43.662] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 715  [11:29:43.666] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 110 structureChanged: false structureIsReused:: Completely Elapsed: 3.8202879999298602ms
+Info 716  [11:29:43.666] Different program with same set of files
+Info 717  [11:29:44.577] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 718  [11:29:44.580] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 111 structureChanged: false structureIsReused:: Completely Elapsed: 2.7556640000548214ms
+Info 719  [11:29:44.580] Different program with same set of files
+Info 720  [11:29:45.443] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 721  [11:29:45.446] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 112 structureChanged: false structureIsReused:: Completely Elapsed: 3.687787000089884ms
+Info 722  [11:29:45.446] Different program with same set of files
+Info 723  [11:30:01.139] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 724  [11:30:01.144] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 113 structureChanged: false structureIsReused:: Completely Elapsed: 5.059342999942601ms
+Info 725  [11:30:01.144] Different program with same set of files
+Info 726  [11:30:02.438] Starting updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json
+Info 727  [11:30:02.443] Finishing updateGraphWorker: Project: /home/hann0t/Development/react-hexagonal-architecture/tsconfig.json Version: 114 structureChanged: false structureIsReused:: Completely Elapsed: 4.741411000024527ms
+Info 728  [11:30:02.443] Different program with same set of files

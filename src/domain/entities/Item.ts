@@ -1,13 +1,10 @@
-import { ItemId } from '@domain/valueObjects/ItemId';
-
 export class Item {
-  id: ItemId;
   name: string;
   price: number;
-
-  constructor(id: ItemId, name: string, price: number) {
-    this.id = id;
+  stock: number;
+  constructor(name: string, price: number, stock: number) {
     this.name = name;
     this.price = price;
+    this.stock = stock;
   }
 }
