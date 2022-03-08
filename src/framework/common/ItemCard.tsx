@@ -4,7 +4,7 @@ interface Props {
   stock: number;
 }
 
-export function Item({ name, price, stock }: Props): JSX.Element {
+export function ItemCard({ name, price, stock }: Props): JSX.Element {
   return (
     <div>
       <h3 id='productName'>{name}</h3>

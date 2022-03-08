@@ -20,4 +20,13 @@ describe('Cart behavior test', () => {
 
     expect(cart.getItems()).toHaveLength(1);
   });
+
+  test("cannot add an item that doesn't have stock", () => {
+    const cart = new Cart();
+    const item = new Item('product', 15, 0);
+
+    cart.addItem(item);
+
+    expect(cart.getItems()).toHaveLength(0);
+  });
 });
