@@ -4,7 +4,11 @@ interface Props {
   stock: number;
 }
 
-export function ItemCard({ name, price, stock }: Props): JSX.Element {
+export const ProductCardView: React.FC<Props> = ({
+  name,
+  price,
+  stock,
+}: Props) => {
   return (
     <div>
       <h3 id='productName'>{name}</h3>
@@ -12,4 +16,4 @@ export function ItemCard({ name, price, stock }: Props): JSX.Element {
       <p id='productStock'>{stock}</p>
     </div>
   );
-}
+};
