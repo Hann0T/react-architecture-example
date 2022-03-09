@@ -1,15 +1,20 @@
-import { Item } from '@domain/entities/Item';
+import { Product } from '@domain/entities/Product';
+import { ProductHasAlreadyBeenAddedError } from 'application/Errors/ProductHasAlreadyBeenAddedError';
+import { ProductOutOfStockError } from 'application/Errors/ProductOutOfStockError';
 
 export class Cart {
-  items: Array<Item> = [];
+  private items: Product[] = [];
 
-  addItem(item: Item): void {
-    if (item.stock <= 0) return;
-    if (this.items.includes(item)) return;
-    this.items.push(item);
+  addProduct(product: Product): void {
+    if (product.stock <= 0) throw new ProductOutOfStockError('out of stock');
+    if (this.items.includes(product))
+      throw new ProductHasAlreadyBeenAddedError(
+        'the product has already been added to the cart',
+      );
+    this.items.push(product);
   }
 
-  getItems(): Array<Item> {
+  getProducts(): Product[] {
     return this.items;
   }
 }
