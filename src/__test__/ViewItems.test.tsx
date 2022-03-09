@@ -1,11 +1,9 @@
 import { shallow } from 'enzyme';
 
-import { ItemCard } from 'framework/common/ItemCard';
-import { Item } from 'domain/entities/Item';
-import { Cart } from 'domain/entities/Cart';
+import { ProductCardView } from 'framework/common/ProductCardView';
 
 describe('View Test Suit', () => {
-  test('The item should have the information', () => {
+  test('The product should have the information', () => {
     const data = {
       name: 'product',
       price: 5,
@@ -13,7 +11,11 @@ describe('View Test Suit', () => {
     };
 
     const wrapper = shallow(
-      <ItemCard name={data.name} price={data.price} stock={data.stock} />,
+      <ProductCardView
+        name={data.name}
+        price={data.price}
+        stock={data.stock}
+      />,
     );
 
     expect(wrapper.find('h3#productName').text()).toMatch(/product/);
@@ -21,8 +23,14 @@ describe('View Test Suit', () => {
     expect(wrapper.find('p#productStock').text()).toEqual('10');
   });
 
-  test('The cart should have the items were added', () => {
-    const item = new Item('productName', 10, 1000);
-    const cart = new Cart();
-  });
+  /* test('The cart should have the items were added', () => {
+*    const item = new Item('productName', 10, 1000);
+*    const cart = new Cart();
+
+*    cart.addItem(item);
+
+*    const wrapper = shallow(<CartView />);
+
+*    expect(wrapper.find('h2').text()).toMatch(/productName/);
+*  }); */
 });

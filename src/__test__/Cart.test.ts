@@ -1,32 +1,40 @@
 import { Cart } from 'domain/entities/Cart';
-import { Item } from 'domain/entities/Item';
+import { Product } from 'domain/entities/Product';
+import { ProductHasAlreadyBeenAddedError } from 'application/Errors/ProductHasAlreadyBeenAddedError';
+import { ProductOutOfStockError } from 'application/Errors/ProductOutOfStockError';
 
 describe('Cart behavior test', () => {
-  test('can add an item to the cart', () => {
+  test('can add a product to the cart', () => {
     const cart = new Cart();
-    const item = new Item('product', 15, 400);
+    const product = new Product('product', 15, 400);
 
-    cart.addItem(item);
+    cart.addProduct(product);
 
-    expect(cart.getItems()).toContainEqual(item);
+    expect(cart.getProducts()).toContainEqual(product);
   });
 
-  test('cannot add an item that has already added', () => {
+  test("can't add a product that doesn't have stock", () => {
     const cart = new Cart();
-    const item = new Item('product', 15, 400);
+    const product = new Product('product', 15, 0);
 
-    cart.addItem(item);
-    cart.addItem(item);
-
-    expect(cart.getItems()).toHaveLength(1);
+    expect(() => {
+      cart.addProduct(product);
+    }).toThrow(new ProductOutOfStockError('out of stock'));
   });
 
-  test("cannot add an item that doesn't have stock", () => {
+  test("can't add a product that has already been added", () => {
     const cart = new Cart();
-    const item = new Item('product', 15, 0);
+    const product = new Product('product', 15, 400);
 
-    cart.addItem(item);
+    cart.addProduct(product);
 
-    expect(cart.getItems()).toHaveLength(0);
+    expect(() => {
+      cart.addProduct(product);
+    }).toThrow(
+      new ProductHasAlreadyBeenAddedError(
+        'the product has already been added to the cart',
+      ),
+    );
+    expect(cart.getProducts()).toHaveLength(1);
   });
 });
