@@ -1,7 +1,7 @@
-import { CartItem } from '@domain/valueObjects/CartItem';
-import { ProductId } from '@domain/valueObjects/ProductId';
-import { ProductHasAlreadyBeenAddedError } from 'application/Errors/ProductHasAlreadyBeenAddedError';
-import { ProductOutOfStockError } from 'application/Errors/ProductOutOfStockError';
+import { CartItem } from 'cart/CartItem';
+import { ProductId } from 'product/ProductId';
+import { ProductHasAlreadyBeenAddedError } from 'errors/ProductHasAlreadyBeenAddedError';
+import { ProductOutOfStockError } from 'errors/ProductOutOfStockError';
 
 export class Cart {
   private items: CartItem[] = [];

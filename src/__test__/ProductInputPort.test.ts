@@ -1,7 +1,6 @@
-import { Product } from 'domain/entities/Product';
-import { ProductInputPort } from 'application/inputPorts/ProductInputPort';
-import { FakeLocalStorageRepository } from 'framework/outputAdapters/FakeLocalStorageRepository';
-
+import { Product } from 'product/Product';
+import { ProductInputPort } from 'product/ProductInputPort';
+import { FakeLocalStorageRepository } from 'dataPersistence/FakeLocalStorageRepository';
 import { IdGenerator } from 'utils/IdGenerator';
 
 describe('Product InputPort test', () => {

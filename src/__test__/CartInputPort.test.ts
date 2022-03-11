@@ -1,10 +1,10 @@
-import { Cart } from 'domain/entities/Cart';
-import { CartItem } from 'domain/valueObjects/CartItem';
-import { CartInputPort } from 'application/inputPorts/CartInputPort';
-import { ProductHasAlreadyBeenAddedError } from 'application/Errors/ProductHasAlreadyBeenAddedError';
-import { ProductOutOfStockError } from 'application/Errors/ProductOutOfStockError';
-import { ProductInputPort } from 'application/inputPorts/ProductInputPort';
-import { FakeLocalStorageRepository } from 'framework/outputAdapters/FakeLocalStorageRepository';
+import { Cart } from 'cart/entities/Cart';
+import { CartItem } from 'cart/CartItem';
+import { CartInputPort } from 'cart/CartInputPort';
+import { ProductInputPort } from 'product/ProductInputPort';
+import { FakeLocalStorageRepository } from 'dataPersistence/FakeLocalStorageRepository';
+import { ProductHasAlreadyBeenAddedError } from 'errors/ProductHasAlreadyBeenAddedError';
+import { ProductOutOfStockError } from 'errors/ProductOutOfStockError';
 import { IdGenerator } from 'utils/IdGenerator';
 
 describe('Cart InputPort test', () => {

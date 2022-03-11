@@ -1,4 +1,4 @@
-import { ProductId } from '@domain/valueObjects/ProductId';
+import { ProductId } from 'product/ProductId';
 
 export class Product {
   id: ProductId;

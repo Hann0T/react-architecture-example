@@ -1,7 +1,7 @@
-import { Cart } from '@domain/entities/Cart';
-import { CartItem } from '@domain/valueObjects/CartItem';
-import { CartItemId } from '@domain/valueObjects/CartItemId';
-import { DataPersistenceOutputPort } from '@application/outputPorts/DataPersistenceOutputPort';
+import { Cart } from 'cart/entities/Cart';
+import { CartItem } from 'cart/CartItem';
+import { CartItemId } from 'cart/CartItemId';
+import { DataPersistenceOutputPort } from 'dataPersistence/DataPersistenceOutputPort';
 
 export interface CartUseCase {
   cart: Cart;

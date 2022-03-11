@@ -1,6 +1,6 @@
-import { Product } from 'domain/entities/Product';
-import { ProductUseCase } from '@application/useCases/ProductUseCase';
-import { DataPersistenceOutputPort } from '@application/outputPorts/DataPersistenceOutputPort';
+import { Product } from 'product/Product';
+import { ProductUseCase } from 'product/ProductUseCase';
+import { DataPersistenceOutputPort } from 'dataPersistence/DataPersistenceOutputPort';
 
 export const ProductInputPort: ProductUseCase = class {
   static createProduct(

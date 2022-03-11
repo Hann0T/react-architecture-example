@@ -1,8 +1,8 @@
-import { Cart } from 'domain/entities/Cart';
-import { CartItem } from '@domain/valueObjects/CartItem';
-import { CartItemId } from '@domain/valueObjects/CartItemId';
-import { CartUseCase } from '@application/useCases/CartUseCase';
-import { DataPersistenceOutputPort } from '@application/outputPorts/DataPersistenceOutputPort';
+import { Cart } from 'cart/entities/Cart';
+import { CartItem } from 'cart/CartItem';
+import { CartItemId } from 'cart/CartItemId';
+import { CartUseCase } from 'cart/CartUseCase';
+import { DataPersistenceOutputPort } from 'dataPersistence/DataPersistenceOutputPort';
 
 export const CartInputPort: CartUseCase = class {
   static repository: DataPersistenceOutputPort;

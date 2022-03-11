@@ -1,8 +1,8 @@
-import { Cart } from 'domain/entities/Cart';
-import { Product } from 'domain/entities/Product';
-import { CartItem } from 'domain/valueObjects/CartItem';
-import { ProductHasAlreadyBeenAddedError } from 'application/Errors/ProductHasAlreadyBeenAddedError';
-import { ProductOutOfStockError } from 'application/Errors/ProductOutOfStockError';
+import { Cart } from 'cart/entities/Cart';
+import { Product } from 'product/Product';
+import { CartItem } from 'cart/CartItem';
+import { ProductHasAlreadyBeenAddedError } from 'errors/ProductHasAlreadyBeenAddedError';
+import { ProductOutOfStockError } from 'errors/ProductOutOfStockError';
 import { IdGenerator } from 'utils/IdGenerator';
 
 describe('Cart behavior test', () => {

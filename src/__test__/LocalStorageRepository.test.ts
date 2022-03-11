@@ -1,4 +1,4 @@
-import { LocalStorageRepository } from 'framework/outputAdapters/LocalStorageRepository';
+import { LocalStorageRepository } from 'dataPersistence/LocalStorageRepository';
 
 class fakeLocalStorage {
   private store: any = {};

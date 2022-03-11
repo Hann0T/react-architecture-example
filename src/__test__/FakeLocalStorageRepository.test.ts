@@ -1,4 +1,4 @@
-import { FakeLocalStorageRepository } from 'framework/outputAdapters/FakeLocalStorageRepository';
+import { FakeLocalStorageRepository } from 'dataPersistence/FakeLocalStorageRepository';
 
 describe('Fake Repository test', () => {
   test('can store items', () => {

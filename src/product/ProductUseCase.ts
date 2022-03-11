@@ -1,5 +1,5 @@
-import { Product } from '@domain/entities/Product';
-import { DataPersistenceOutputPort } from '@application/outputPorts/DataPersistenceOutputPort';
+import { Product } from 'product/Product';
+import { DataPersistenceOutputPort } from 'dataPersistence/DataPersistenceOutputPort';
 
 export interface ProductUseCase {
   createProduct(
