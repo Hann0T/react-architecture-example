@@ -1,14 +1,14 @@
 import { Cart } from '@domain/entities/Cart';
-import { Product } from '@domain/entities/Product';
-
-import { ProductOutputPort } from '@applicationoutputPorts/ProductOutputPort';
+import { CartItem } from '@domain/valueObjects/CartItem';
+import { CartItemId } from '@domain/valueObjects/CartItemId';
+import { DataPersistenceOutputPort } from '@application/outputPorts/DataPersistenceOutputPort';
 
 export interface CartUseCase {
-  createCart(): Cart;
-  saveProduct(
-    product: Product,
-    repository: ProductOutputPort,
-    cart?: Cart | null,
-  ): void;
-  getProductsFrom(repository: ProductOutputPort): Product[];
+  cart: Cart;
+  repository: DataPersistenceOutputPort;
+  registerRepository(repository: DataPersistenceOutputPort): void;
+  saveCartProduct(cartItem: CartItem): void;
+  increaseQuantityOfProduct(id: CartItemId): void;
+  getCartProducts(): CartItem[];
+  deleteProduct(id: CartItemId): void;
 }
