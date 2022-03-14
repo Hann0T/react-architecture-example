@@ -1,4 +1,3 @@
-import { Cart } from 'cart/entities/Cart';
 import { CartItem } from 'cart/CartItem';
 import { CartInputPort } from 'cart/CartInputPort';
 import { ProductInputPort } from 'product/ProductInputPort';
@@ -8,12 +7,6 @@ import { ProductOutOfStockError } from 'errors/ProductOutOfStockError';
 import { IdGenerator } from 'utils/IdGenerator';
 
 describe('Cart InputPort test', () => {
-  test('can get a Cart instance', () => {
-    const cart = CartInputPort.cart;
-
-    expect(cart).toBeInstanceOf(Cart);
-  });
-
   test('can save a product to the cart', () => {
     CartInputPort.registerRepository(new FakeLocalStorageRepository());
     const item: CartItem = {
@@ -97,6 +90,46 @@ describe('Cart InputPort test', () => {
 
     expect(CartInputPort.getCartProducts()[0].quantity).toEqual(2);
   });
+
+  test('can decrease the quantity of a product', () => {
+    CartInputPort.registerRepository(new FakeLocalStorageRepository());
+    let item: CartItem = {
+      id: IdGenerator.generateId(),
+      product: ProductInputPort.createProduct(
+        'product',
+        15,
+        10,
+        IdGenerator.generateId(),
+      ),
+      quantity: 2,
+    };
+
+    CartInputPort.saveCartProduct(item);
+
+    CartInputPort.decreaseQuantityOfProduct(item.id);
+
+    expect(CartInputPort.getCartProducts()[0].quantity).toEqual(1);
+  });
+
+  test('has product', () => {
+    CartInputPort.registerRepository(new FakeLocalStorageRepository());
+    let item: CartItem = {
+      id: IdGenerator.generateId(),
+      product: ProductInputPort.createProduct(
+        'product',
+        15,
+        10,
+        IdGenerator.generateId(),
+      ),
+      quantity: 2,
+    };
+
+    CartInputPort.saveCartProduct(item);
+    let hasProduct = CartInputPort.hasProduct(item.product.id);
+
+    expect(hasProduct).toBeTruthy();
+  });
+
   test('can delete a Product', () => {
     CartInputPort.registerRepository(new FakeLocalStorageRepository());
     let item: CartItem = {

@@ -1,4 +1,4 @@
-import { DataPersistenceOutputPort } from '@application/outputPorts/DataPersistenceOutputPort';
+import { DataPersistenceOutputPort } from 'dataPersistence/DataPersistenceOutputPort';
 
 export class FakeLocalStorageRepository implements DataPersistenceOutputPort {
   private items: any[] = [];
