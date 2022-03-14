@@ -15,6 +15,7 @@ export const CartItemView: React.FC<Props> = ({
   product,
   quantity,
 }: Props) => {
+  const [price, setPrice] = React.useState(product.price);
   const [inputNumber, setInputNumber] = React.useState(quantity);
   const { setCartItems } = React.useContext(CartContext);
 
@@ -22,14 +23,25 @@ export const CartItemView: React.FC<Props> = ({
     CartInputPort.deleteProduct(id);
     setCartItems(CartInputPort.getCartProducts());
   };
+
   const handleChange = (ev: React.ChangeEvent<HTMLInputElement>) => {
-    setInputNumber(parseInt(ev.target.value));
+    let newQuantity = parseInt(ev.target.value);
+    handleQuantity(quantity, newQuantity);
+    setInputNumber(newQuantity);
+    setPrice(newQuantity * product.price);
+  };
+
+  const handleQuantity = (oldQuantity: number, newQuantity: number) => {
+    oldQuantity < newQuantity
+      ? CartInputPort.increaseQuantityOfProduct(id)
+      : CartInputPort.decreaseQuantityOfProduct(id);
   };
 
   return (
     <div id={id} className='p-2 my-2 shadow-md'>
-      <h4 className='text-xl'>{product.name}</h4>
-      <div className='flex my-2 justify-between items-center'>
+      <h4 className='mb-2 text-xl'>{product.name}</h4>
+      <p className='mb-2'>${price}</p>
+      <div className='flex mb-2 justify-between items-center'>
         <label className='text-sm mr-2'>quantity:</label>
         <input
           type={'number'}

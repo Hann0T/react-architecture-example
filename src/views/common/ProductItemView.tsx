@@ -12,6 +12,8 @@ interface Props {
   name: string;
   price: number;
   stock: number;
+  setOpenModal: React.Dispatch<React.SetStateAction<Boolean>>;
+  setError: React.Dispatch<React.SetStateAction<String>>;
 }
 
 export const ProductItemView: React.FC<Props> = ({
@@ -19,6 +21,8 @@ export const ProductItemView: React.FC<Props> = ({
   name,
   price,
   stock,
+  setOpenModal,
+  setError,
 }: Props) => {
   const { setCartItems } = React.useContext(CartContext);
 
@@ -35,7 +39,9 @@ export const ProductItemView: React.FC<Props> = ({
       });
       setCartItems(CartInputPort.getCartProducts());
     } catch (error) {
-      console.log(error);
+      //@ts-ignore
+      setError(error?.message);
+      setOpenModal(true);
     }
   };
 

@@ -12,6 +12,8 @@ import { CartContextProvider } from './CartContext';
 import { Modal } from './Modal';
 
 const App: React.FC = () => {
+  const [isOpenModal, setIsOpenModal] = React.useState<Boolean>(false);
+  const [errorMessage, setErrorMessage] = React.useState<String>('');
   const [products, setProducts] = React.useState<Product[]>([]);
 
   React.useEffect(() => {
@@ -35,12 +37,27 @@ const App: React.FC = () => {
                 name={product.name}
                 price={product.price}
                 stock={product.stock}
+                setOpenModal={setIsOpenModal}
+                setError={setErrorMessage}
               />
             ))}
           </ProductList>
           <CartView />
         </CartContextProvider>
-        <Modal></Modal>
+        {isOpenModal ? (
+          <Modal>
+            <div className='flex flex-col p-5 bg-white'>
+              <p className='text-xl'> {errorMessage}</p>
+              <button
+                type='button'
+                onClick={() => setIsOpenModal(false)}
+                className='mt-5 bg-blue-500 hover:bg-blue-700 text-white'
+              >
+                ok
+              </button>
+            </div>
+          </Modal>
+        ) : null}
       </div>
     </>
   );
