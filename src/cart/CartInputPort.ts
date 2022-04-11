@@ -13,7 +13,7 @@ export const CartInputPort: CartUseCase = class {
     CartInputPort.repository = repository;
   }
 
-  static saveCartProduct(CartItem: CartItem): void {
+  static saveCartProduct(CartItem: CartItem): void | never {
     if (CartItem.product.stock <= 0) {
       throw new ProductOutOfStockError('out of stock');
     }
